@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+# Exclude personal Xcode user settings
+xcuserdata/ 
+
+
