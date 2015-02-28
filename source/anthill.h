@@ -3,6 +3,8 @@
 #include <memory>
 #include <cstddef>
 
+#include "config.h"
+
 namespace anthill {
 
 // Consistent naming scheme for bit-specific types.
