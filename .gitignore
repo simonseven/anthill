@@ -29,5 +29,6 @@
 
 # Exclude personal Xcode user settings
 xcuserdata/ 
+*.xcuserstate
 
 

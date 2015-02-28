@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>41792082-ED52-4A98-8431-73C55FC5B964</string>
+	<key>IDESourceControlProjectName</key>
+	<string>anthill</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>27771DFD1A32231CE90868BEBD27F79FC06ED657</key>
+		<string>https://github.com/simonseven/anthill.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>projects/xcode/anthill.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>27771DFD1A32231CE90868BEBD27F79FC06ED657</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/simonseven/anthill.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>27771DFD1A32231CE90868BEBD27F79FC06ED657</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>27771DFD1A32231CE90868BEBD27F79FC06ED657</string>
+			<key>IDESourceControlWCCName</key>
+			<string>anthill</string>
+		</dict>
+	</array>
+</dict>
+</plist>
