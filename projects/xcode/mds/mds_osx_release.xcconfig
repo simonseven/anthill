@@ -1,0 +1,9 @@
+AX_ROOT = $(SRCROOT)/../../..
+AX_PROJECT = MDS
+AX_PLATFORM = AX_OSX
+AX_CONFIGURATION = Debug
+
+#include "../CommonIncludes.xcconfig"
+#include "../CommonSwitches.xcconfig"
+
+PRODUCT_NAME = mds
