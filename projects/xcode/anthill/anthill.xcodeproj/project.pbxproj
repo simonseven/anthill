@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3156AE931AA2821600DB42B4 /* anthill_versions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3156AE921AA2821600DB42B4 /* anthill_versions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3156AEAD1AA2948300DB42B4 /* anthill.h in Headers */ = {isa = PBXBuildFile; fileRef = 3156AEAB1AA2948300DB42B4 /* anthill.h */; };
+		3156AEAE1AA2948300DB42B4 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 3156AEAC1AA2948300DB42B4 /* config.h */; };
+		3156AEB11AA2948D00DB42B4 /* Exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3156AEAF1AA2948D00DB42B4 /* Exceptions.cpp */; };
+		3156AEB21AA2948D00DB42B4 /* Exceptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3156AEB01AA2948D00DB42B4 /* Exceptions.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3156AE8D1AA2821600DB42B4 /* anthill.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = anthill.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3156AE911AA2821600DB42B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3156AE921AA2821600DB42B4 /* anthill_versions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anthill_versions.h; sourceTree = "<group>"; };
+		3156AEAB1AA2948300DB42B4 /* anthill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anthill.h; sourceTree = "<group>"; };
+		3156AEAC1AA2948300DB42B4 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		3156AEAF1AA2948D00DB42B4 /* Exceptions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exceptions.cpp; sourceTree = "<group>"; };
+		3156AEB01AA2948D00DB42B4 /* Exceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exceptions.h; sourceTree = "<group>"; };
+		3156AEB31AA2950D00DB42B4 /* anthill_osx_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = anthill_osx_debug.xcconfig; sourceTree = "<group>"; };
+		3156AEB41AA295C700DB42B4 /* anthill_osx_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = anthill_osx_release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3156AE891AA2821600DB42B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3156AE831AA2821600DB42B4 = {
+			isa = PBXGroup;
+			children = (
+				3156AEB31AA2950D00DB42B4 /* anthill_osx_debug.xcconfig */,
+				3156AEB41AA295C700DB42B4 /* anthill_osx_release.xcconfig */,
+				3156AEA91AA2945700DB42B4 /* source/anthill */,
+				3156AE8F1AA2821600DB42B4 /* anthill */,
+				3156AE8E1AA2821600DB42B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3156AE8E1AA2821600DB42B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3156AE8D1AA2821600DB42B4 /* anthill.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3156AE8F1AA2821600DB42B4 /* anthill */ = {
+			isa = PBXGroup;
+			children = (
+				3156AE921AA2821600DB42B4 /* anthill_versions.h */,
+				3156AE901AA2821600DB42B4 /* Supporting Files */,
+			);
+			path = anthill;
+			sourceTree = "<group>";
+		};
+		3156AE901AA2821600DB42B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3156AE911AA2821600DB42B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3156AEA91AA2945700DB42B4 /* source/anthill */ = {
+			isa = PBXGroup;
+			children = (
+				3156AEAB1AA2948300DB42B4 /* anthill.h */,
+				3156AEAC1AA2948300DB42B4 /* config.h */,
+				3156AEAA1AA2946E00DB42B4 /* core */,
+			);
+			name = source/anthill;
+			path = ../../../source/anthill;
+			sourceTree = SOURCE_ROOT;
+		};
+		3156AEAA1AA2946E00DB42B4 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				3156AEAF1AA2948D00DB42B4 /* Exceptions.cpp */,
+				3156AEB01AA2948D00DB42B4 /* Exceptions.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3156AE8A1AA2821600DB42B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3156AEB21AA2948D00DB42B4 /* Exceptions.h in Headers */,
+				3156AE931AA2821600DB42B4 /* anthill_versions.h in Headers */,
+				3156AEAD1AA2948300DB42B4 /* anthill.h in Headers */,
+				3156AEAE1AA2948300DB42B4 /* config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3156AE8C1AA2821600DB42B4 /* anthill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3156AEA31AA2821600DB42B4 /* Build configuration list for PBXNativeTarget "anthill" */;
+			buildPhases = (
+				3156AE881AA2821600DB42B4 /* Sources */,
+				3156AE891AA2821600DB42B4 /* Frameworks */,
+				3156AE8A1AA2821600DB42B4 /* Headers */,
+				3156AE8B1AA2821600DB42B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anthill;
+			productName = anthill;
+			productReference = 3156AE8D1AA2821600DB42B4 /* anthill.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3156AE841AA2821600DB42B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = cfr3;
+				TargetAttributes = {
+					3156AE8C1AA2821600DB42B4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 3156AE871AA2821600DB42B4 /* Build configuration list for PBXProject "anthill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3156AE831AA2821600DB42B4;
+			productRefGroup = 3156AE8E1AA2821600DB42B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3156AE8C1AA2821600DB42B4 /* anthill */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3156AE8B1AA2821600DB42B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3156AE881AA2821600DB42B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3156AEB11AA2948D00DB42B4 /* Exceptions.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3156AEA11AA2821600DB42B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3156AEA21AA2821600DB42B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3156AEA41AA2821600DB42B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3156AEB31AA2950D00DB42B4 /* anthill_osx_debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = anthill/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3156AEA51AA2821600DB42B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3156AEB41AA295C700DB42B4 /* anthill_osx_release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = anthill/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3156AE871AA2821600DB42B4 /* Build configuration list for PBXProject "anthill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3156AEA11AA2821600DB42B4 /* Debug */,
+				3156AEA21AA2821600DB42B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3156AEA31AA2821600DB42B4 /* Build configuration list for PBXNativeTarget "anthill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3156AEA41AA2821600DB42B4 /* Debug */,
+				3156AEA51AA2821600DB42B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3156AE841AA2821600DB42B4 /* Project object */;
+}

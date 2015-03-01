@@ -167,3 +167,11 @@
     #define AX_OBJC 1
 
 #endif
+
+#ifdef AX_ANTHILL_BUILD
+    #define ANTHILL_API AX_DSO_EXPORT
+#else
+    #define ANTHILL_API AX_DSO_IMPORT
+#endif
+
+

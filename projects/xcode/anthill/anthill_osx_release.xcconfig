@@ -1,0 +1,9 @@
+AX_ROOT = $(SRCROOT)/../../..
+AX_PROJECT = ANTHILL
+AX_PLATFORM = AX_OSX
+AX_CONFIGURATION = Release
+
+#include "../CommonIncludes.xcconfig"
+#include "../CommonSwitches.xcconfig"
+
+PRODUCT_NAME = anthill

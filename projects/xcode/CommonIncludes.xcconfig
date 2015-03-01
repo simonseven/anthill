@@ -1,0 +1,12 @@
+// AX_ROOT & AX_PLATFORM must be declared before this file is included
+
+//AX_ROOT = $(SRCROOT)/../../..
+
+AX_IOS_HEADERS =
+AX_OSX_HEADERS = $(AX_ROOT)/external/opencl/1.2/opencl
+
+AX_IOS_USER_HEADERS =
+AX_OSX_USER_HEADERS =
+
+USER_HEADER_SEARCH_PATHS = $(AX_PLATFORM)_USER_HEADERS $(AX_ROOT)/source
+HEADER_SEARCH_PATHS = $(AX_PLATFORM)_HEADERS $(AX_ROOT)/external/boost_1_57_0 $(AX_ROOT)/external/lpng1616
