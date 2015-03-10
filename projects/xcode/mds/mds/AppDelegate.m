@@ -16,6 +16,8 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    
+    NSLog(@"Loaded");
     // Insert code here to initialize your application
 }
 
