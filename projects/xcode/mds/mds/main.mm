@@ -8,6 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
+#include "anthill/core/Exceptions.h"
+
 int main(int argc, const char * argv[]) {
+    
+    AX_ENFORCE(argc > 0);
+    
     return NSApplicationMain(argc, argv);
 }

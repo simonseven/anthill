@@ -2,7 +2,7 @@
 
 namespace anthill {
 
-ExceptionBase::ExceptionBase() : m_what("Protoculture Exception")
+ExceptionBase::ExceptionBase() : m_what("Anthill Exception")
 {
 }
 

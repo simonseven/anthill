@@ -168,7 +168,7 @@
 
 #endif
 
-#ifdef AX_ANTHILL_BUILD
+#ifdef ANTHILL_BUILD
     #define ANTHILL_API AX_DSO_EXPORT
 #else
     #define ANTHILL_API AX_DSO_IMPORT

@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312C47BD1AB35D4100FBD50C /* anthill.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312C47BA1AB35D3600FBD50C /* anthill.framework */; };
+		312C47CB1AB35ED300FBD50C /* anthill.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 312C47BA1AB35D3600FBD50C /* anthill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		314B9C451AA3B9F000814818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B9C441AA3B9F000814818 /* AppDelegate.m */; };
-		314B9C471AA3B9F000814818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 314B9C461AA3B9F000814818 /* main.m */; };
+		314B9C471AA3B9F000814818 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 314B9C461AA3B9F000814818 /* main.mm */; };
 		314B9C491AA3B9F000814818 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314B9C481AA3B9F000814818 /* Images.xcassets */; };
 		314B9C4C1AA3B9F000814818 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 314B9C4A1AA3B9F000814818 /* MainMenu.xib */; };
-		314B9C6C1AA3BAB200814818 /* anthill.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 314B9C661AA3BA2800814818 /* anthill.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		314B9C651AA3BA2800814818 /* PBXContainerItemProxy */ = {
+		312C47B91AB35D3600FBD50C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 314B9C611AA3BA2800814818 /* anthill.xcodeproj */;
+			containerPortal = 312C47B51AB35D3600FBD50C /* anthill.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3156AE8D1AA2821600DB42B4;
 			remoteInfo = anthill;
 		};
-		314B9C691AA3BA9A00814818 /* PBXContainerItemProxy */ = {
+		312C47BB1AB35D3D00FBD50C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 314B9C611AA3BA2800814818 /* anthill.xcodeproj */;
+			containerPortal = 312C47B51AB35D3600FBD50C /* anthill.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 3156AE8C1AA2821600DB42B4;
 			remoteInfo = anthill;
@@ -38,21 +39,21 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				314B9C6C1AA3BAB200814818 /* anthill.framework in CopyFiles */,
+				312C47CB1AB35ED300FBD50C /* anthill.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		312C47B51AB35D3600FBD50C /* anthill.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = anthill.xcodeproj; path = ../anthill/anthill.xcodeproj; sourceTree = "<group>"; };
 		314B9C3E1AA3B9F000814818 /* mds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		314B9C421AA3B9F000814818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		314B9C431AA3B9F000814818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		314B9C441AA3B9F000814818 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		314B9C461AA3B9F000814818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		314B9C461AA3B9F000814818 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		314B9C481AA3B9F000814818 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		314B9C4B1AA3B9F000814818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		314B9C611AA3BA2800814818 /* anthill.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = anthill.xcodeproj; path = ../anthill/anthill.xcodeproj; sourceTree = "<group>"; };
 		314B9C671AA3BA4400814818 /* mds_osx_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = mds_osx_debug.xcconfig; sourceTree = "<group>"; };
 		314B9C681AA3BA7200814818 /* mds_osx_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = mds_osx_release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,18 +63,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312C47BD1AB35D4100FBD50C /* anthill.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312C47B61AB35D3600FBD50C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				312C47BA1AB35D3600FBD50C /* anthill.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		314B9C351AA3B9F000814818 = {
 			isa = PBXGroup;
 			children = (
+				312C47B51AB35D3600FBD50C /* anthill.xcodeproj */,
 				314B9C681AA3BA7200814818 /* mds_osx_release.xcconfig */,
 				314B9C671AA3BA4400814818 /* mds_osx_debug.xcconfig */,
-				314B9C611AA3BA2800814818 /* anthill.xcodeproj */,
 				314B9C401AA3B9F000814818 /* mds */,
 				314B9C3F1AA3B9F000814818 /* Products */,
 			);
@@ -103,17 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				314B9C421AA3B9F000814818 /* Info.plist */,
-				314B9C461AA3B9F000814818 /* main.m */,
+				314B9C461AA3B9F000814818 /* main.mm */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		314B9C621AA3BA2800814818 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				314B9C661AA3BA2800814818 /* anthill.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +133,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				314B9C6A1AA3BA9A00814818 /* PBXTargetDependency */,
+				312C47BC1AB35D3D00FBD50C /* PBXTargetDependency */,
 			);
 			name = mds;
 			productName = mds;
@@ -165,8 +167,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 314B9C621AA3BA2800814818 /* Products */;
-					ProjectRef = 314B9C611AA3BA2800814818 /* anthill.xcodeproj */;
+					ProductGroup = 312C47B61AB35D3600FBD50C /* Products */;
+					ProjectRef = 312C47B51AB35D3600FBD50C /* anthill.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -177,11 +179,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		314B9C661AA3BA2800814818 /* anthill.framework */ = {
+		312C47BA1AB35D3600FBD50C /* anthill.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = anthill.framework;
-			remoteRef = 314B9C651AA3BA2800814818 /* PBXContainerItemProxy */;
+			remoteRef = 312C47B91AB35D3600FBD50C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -203,7 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				314B9C471AA3B9F000814818 /* main.m in Sources */,
+				314B9C471AA3B9F000814818 /* main.mm in Sources */,
 				314B9C451AA3B9F000814818 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,10 +213,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		314B9C6A1AA3BA9A00814818 /* PBXTargetDependency */ = {
+		312C47BC1AB35D3D00FBD50C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = anthill;
-			targetProxy = 314B9C691AA3BA9A00814818 /* PBXContainerItemProxy */;
+			targetProxy = 312C47BB1AB35D3D00FBD50C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -349,6 +351,7 @@
 				314B9C5D1AA3B9F000814818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module anthill {
+  umbrella header "anthill.h"
+
+  export *
+  module * { export * }
+}
